@@ -1,6 +1,5 @@
 Die Welt besteht aus einem Graph an Maps.
-Jede Map hat max. 4 angrenzende Maps.
-Nicht besetzte "Grenzen" werden mit einem "Abschluss" versehen.
+Die Verbindungen zu anderen Maps bestehen aus speziellen tiles, welche die Verbindungsinformationen beinhalten.
 
 Jede Map beinhaltet ein Layer für die Höhe(oder "Begänglichkeit") eines Feldes als max. Integer.
 Und Mehrere Layer für die verschiedenen Tile-Ebenen.
