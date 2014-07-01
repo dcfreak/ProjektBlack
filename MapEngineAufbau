@@ -1,0 +1,9 @@
+Die Welt besteht aus einem Graph an Map.
+Jede Map hat max. 4 angrenzende Maps.
+Nicht besetzte "Grenzen" werden mit einem "Abschluss" versehen.
+
+Jede Map beinhaltet ein Layer für die Höhe(oder "Begänglichkeit") eines Feldes als max. Integer.
+Und Mehrere Layer für die verschiedenen Tile-Ebenen.
+
+Tiles werden über eine HashMap (Integer, URI) in der jeweiligen Map Serialisiert und Geladen.
+Ein Tile ist immer eine text datei welche den pfad zur jeweiligen textur enthält, sowie informationen wie animation oder transparenz, etc.
