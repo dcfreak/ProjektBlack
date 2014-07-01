@@ -1,4 +1,4 @@
-Die Welt besteht aus einem Graph an Map.
+Die Welt besteht aus einem Graph an Maps.
 Jede Map hat max. 4 angrenzende Maps.
 Nicht besetzte "Grenzen" werden mit einem "Abschluss" versehen.
 
